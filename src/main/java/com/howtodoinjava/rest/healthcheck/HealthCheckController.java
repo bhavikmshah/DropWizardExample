@@ -12,7 +12,7 @@ import com.codahale.metrics.health.HealthCheck.Result;
 import com.codahale.metrics.health.HealthCheckRegistry;
 
 @Produces(MediaType.APPLICATION_JSON)
-@Path("/status")
+@Path("/ping")
 public class HealthCheckController 
 {
 	private HealthCheckRegistry registry;
